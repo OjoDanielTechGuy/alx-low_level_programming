@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry point 
+ * main - Entry point
  * desc - Program uses putchar to print in lower case
  * Return: Always 0 (Success)
  */
