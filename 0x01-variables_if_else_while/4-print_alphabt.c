@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main Entry - point
+ * main - Entry Point
  * desc: using only putchar function to print
  * Return: Always 0 (Success)
  */
