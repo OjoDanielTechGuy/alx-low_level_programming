@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry Point
- * desc: program that prints all the numbers of 
+ * desc: program that prints all the numbers of
  * base 16 in lowercase using only putchar function
  * Return: Always 0 (Success)
  */
