@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry Point
- * desc: program that prints the lowercase alphabet in reverse using only putchar function
+ * desc: program that prints reverse words
  * You can only use putchar twice
  * Return: Always 0 (Success)
  */
