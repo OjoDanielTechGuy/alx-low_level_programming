@@ -3,7 +3,7 @@
  * main - Entry Point
  * desc: Progam that prints all possible different
  * combination of three digits.
- * Return 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
