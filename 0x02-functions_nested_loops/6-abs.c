@@ -16,6 +16,6 @@ int _abs(int abs)
 		abs = abs;
 	}
 
-	return abs;
+	return (abs);
 
 }
