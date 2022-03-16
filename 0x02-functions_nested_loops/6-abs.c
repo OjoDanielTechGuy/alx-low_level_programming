@@ -13,7 +13,9 @@ int _abs(int abs)
 	}
 	else
 	{
-		return abs;
+		abs = abs;
 	}
+
+	return abs;
 
 }
