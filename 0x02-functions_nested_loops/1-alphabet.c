@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - Entry Point
+ * print_alphabet - Entry Point
  * desc:You can only use _putchar twice in your code
  * function that prints the alphabet, in lowercase
  * followed by a new line
