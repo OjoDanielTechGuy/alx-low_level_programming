@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <main.h>
+#include "main.h"
 
 /**
  * main - Entry Point
@@ -18,5 +18,5 @@ void print_alphabet(void)
 	}
 	_putchar('\n');
 
-	return (0)
+	return (0);
 }
