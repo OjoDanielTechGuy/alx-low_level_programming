@@ -17,7 +17,7 @@ int main(void)
 	{
 		if ((start_n % 3 == 0) || (start_n % 5 == 0))
 		{
-			total =+ start_n;
+			total += start_n;
 		}
 		else
 		{
