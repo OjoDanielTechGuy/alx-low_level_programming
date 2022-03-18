@@ -6,7 +6,7 @@
  * whose values do not exceed 4,000,000
  * Return: Always 0 (Success)
  */
-int main (void)
+int main(void)
 {
 	int x, y, z, total;
 
