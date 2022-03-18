@@ -40,7 +40,7 @@ int main(void)
 		z2 += y2;
 		y2 = z2 - y2;
 	}
-	perintf("\n");
+	printf("\n");
 
 	return (0);
 }
