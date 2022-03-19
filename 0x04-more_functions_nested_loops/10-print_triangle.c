@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_triangle - function that prints a triangle
- * @size: size of triangle
+ * @size: n number of size
  * desc: use _putchar function to print
  * If size is 0 or less, the function should print only a new line
  * Use the character # to print the triangle01~
@@ -9,25 +9,25 @@
  */
 int print_triangle(int size)
 {
-	int x, y, z;
+	int x = 0;
+	int n = size - 1;
+	int y;
 
-	if (size <= 0)
+	if (size > 0)
 	{
-		_putchar('\n');
-	}
-	else
-	{
-		for (y = 0; y <= (size - 1); y++)
+		for (; x < size; x++)
 		{
-			for (x = 0; x < (size - 1) - y; y++)
+			for (y = 0; y < size; y++)
 			{
-				_putchar(' ');
+				if (y < n)
+					_putchar(' ');
+				else
+					_putchar('#')
 			}
-			for (z = 0; z <= y; z++)
-			{
-				_putchar('#');
-			}
+			n--;
 			_putchar('\n');
 		}
 	}
+	else
+		_putchar('\n');
 }
