@@ -7,7 +7,7 @@
  * Use the character # to print the triangle01~
  * Return: triangle shape
  */
-int print_triangle(int size)
+void print_triangle(int size)
 {
 	int x = 0;
 	int n = size - 1;
