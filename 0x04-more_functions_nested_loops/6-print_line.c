@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_line - function that draws a straight line
- * in the terminal.
+ * in terminal
  * desc: only use _putchar function to print
  * @n: Where n is the number of times the character
  * _ should be printed
