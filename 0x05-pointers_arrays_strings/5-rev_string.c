@@ -10,11 +10,11 @@ void rev_string(char *s)
 	char rev = s[0];
 	int fcounter = 0;
 
-	while (s[fcounter] != '\0');
+	while (s[fcounter] != '\0')
 	{
-		founder++;
+		fcounter++;
 	}
-
+	
 	for (i = 0; i < fcounter; i++)
 	{
 		fcounter--;
