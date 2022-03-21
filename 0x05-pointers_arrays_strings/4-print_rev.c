@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_ver - function that prints a string, in reverse
+ * rev_string - function that prints a string, in reverse
  * @s: holds the value of characters
  * Return: reverse words
  */
