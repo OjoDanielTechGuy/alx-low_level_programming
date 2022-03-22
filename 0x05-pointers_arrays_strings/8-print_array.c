@@ -9,11 +9,11 @@
  * @a: name of array
  * Return: number of elements in an integer array
  */
-void print_array(int *a, int *n)
+void print_array(int *a, int n)
 {
 	int x;
 
-	for (x = 0; x < (*n - 1); x++)
+	for (x = 0; x < (n - 1); x++)
 	{
 		printf("%d, ", a[x]);
 
