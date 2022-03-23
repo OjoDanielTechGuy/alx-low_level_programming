@@ -19,7 +19,7 @@ int _atoi(char *s)
 		if ((*(s + count) >= '0') && (*(s + count) <= '9'))
 		{
 			if (size > 0)
-				m *= -10;
+				m *= 10;
 			size++;
 		}
 		count++;
@@ -27,7 +27,7 @@ int _atoi(char *s)
 
 	for (i = count - size; i < count; i++)
 	{
-		oi = oi + ((*(s + i) - 48) * m);
+		oi = oi - ((*(s + i) - 48) * m);
 		m /= 10;
 	}
 	return (oi * pn);
