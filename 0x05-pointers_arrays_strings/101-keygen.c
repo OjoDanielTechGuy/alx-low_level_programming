@@ -8,7 +8,6 @@
 int main(void)
 {
 	int r = 0, c = 0;
-	time_t;
 
 	srand((unsigned int)(time(NULL)));
 	while (c < 2772)
