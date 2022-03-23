@@ -7,21 +7,21 @@
  */
 int main(void)
 {
-	int y = 0, x = 0;
+	int r = 0, c = 0;
 	time_t t;
 
 	srand((unsigned int)time(&t));
-	while (x < 2772)
+	while (c < 2772)
 	{
-		y = rand() % 128;
+		r = rand() % 128;
 
-		if ((x + y) > 2772)
+		if ((c + r) > 2772)
 			break;
 
-		x += y;
-		printf("%x", y);
+		c = c + r;
+		printf("%c", r);
 	}
-	printf("%x\n", (2772 - x));
+	printf("%c\n", (2772 - c));
 
 	return (0);
 }
