@@ -5,12 +5,12 @@
  * main - Entry Point
  * Return: Always 0 (Success)
  */
-int main (void)
+int main(void)
 {
 	int y = 0, x = 0;
 	time_t t;
 
-	srand((unsigned int) time(&t));
+	srand((unsigned int)time(&t));
 	while (x < 2772)
 	{
 		y = rand() % 128;
@@ -21,7 +21,7 @@ int main (void)
 		x += y;
 		printf("%x", y);
 	}
-	printf("%c\n", (2772 - c));
+	printf("%x\n", (2772 - x));
 
 	return (0);
 }
