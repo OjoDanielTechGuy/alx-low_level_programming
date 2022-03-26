@@ -15,14 +15,14 @@ char *leet(char *str)
 	int look_for[] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
 	int replace_with[] = {'4', '3', '0', '7', '1'};
 
-	for (i = 0; str[i] != '\0'; i++)
+	for (x = 0; str[x] != '\0'; x++)
 	{
-		for (x = 0; x <= 9; x++)
+		for (y = 0; y <= 9; y++)
 		{
-			if (str[i] == find[x])
+			if (str[x] == find[y])
 			{
-				str[i] = replace_with[x / 2];
-				x = 9;
+				str[x] = replace_with[y / 2];
+				y = 9;
 			}
 		}
 	}
