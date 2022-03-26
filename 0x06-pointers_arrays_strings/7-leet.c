@@ -12,7 +12,7 @@
 char *leet(char *str)
 {
 	int x, y;
-	int look_for[] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
+	int find[] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
 	int replace_with[] = {'4', '3', '0', '7', '1'};
 
 	for (x = 0; str[x] != '\0'; x++)
