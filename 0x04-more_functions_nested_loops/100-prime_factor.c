@@ -7,13 +7,26 @@
  */
 int main(void)
 {
-	unsigned long int x, n = 612852475143;
+	long prime = 612852475143, div;
 
-	for (x = 3; 3 < 782849; x = x + 2)
+	while (div < (prime / 2))
 	{
-		while ((n % x == 0) && (n != x))
-			n = n / x;
+		if ((prime % 2) == 0)
+		{
+			prime /= 2;
+			continue;
+		}
+
+		for (div = 3; div < (prime / 2); div += 2)
+		{
+			if ((prime % div) == 0)
+			{
+				prime /= div;
+			}
+		}
 	}
-	printf("%lu\n", n);
+
+	printf("%ld\n", prime);
+
 	return (0);
 }
