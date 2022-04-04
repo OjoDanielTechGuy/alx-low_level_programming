@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * create_arrary - creation of array
+ * create_array - creation of array
  * @size: size of array
  * @c: char value
  * Return: NULL if size = 0 or pointer to array
