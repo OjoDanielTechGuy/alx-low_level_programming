@@ -24,14 +24,14 @@ char *_strdup(char *str)
 
 	duplicate = malloc(sizeof(char) * (i + 1));
 
-	for (point = 0; str[point]; point++)
-	{
-		duplicate[point] = str[point];
-	}
-
 	if (duplicate == NULL)
 	{
 		return (NULL);
+	}
+
+	for (point = 0; str[point]; point++)
+	{
+		duplicate[point] = str[point];
 	}
 
 	duplicate[i] = '\0';
