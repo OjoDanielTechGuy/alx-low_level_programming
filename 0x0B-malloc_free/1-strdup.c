@@ -33,5 +33,7 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 
+	duplicate[point] = '\0';
+
 	return (duplicate);
 }
