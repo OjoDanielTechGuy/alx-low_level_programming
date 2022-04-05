@@ -9,7 +9,7 @@
  */
 char *_strdup(char *str)
 {
-	int i, point;
+	int point, i = 0;
 	char *duplicate;
 
 	if (str == NULL)
@@ -17,15 +17,16 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 
-	for (point = 0; point <= *str; point++)
+	for (point = 0; str[point]; point++)
 	{
+		i++;
 	}
 
-	duplicate = malloc(sizeof(char) * (point + 1));
+	duplicate = malloc(sizeof(char) * (i + 1));
 
-	for (i = 0; i < point; i++)
+	for (point = 0; str[point]; point++)
 	{
-		duplicate[i] = str[i];
+		duplicate[point] = str[point];
 	}
 
 	if (duplicate == NULL)
@@ -33,7 +34,7 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 
-	duplicate[point] = '\0';
+	duplicate[i] = '\0';
 
 	return (duplicate);
 }
