@@ -21,8 +21,7 @@ char *_strdup(char *str)
 	{
 	}
 
-	point += 1;
-	duplicate = malloc(sizeof(char) * point);
+	duplicate = malloc(sizeof(char) * (point + 1));
 
 	for (i = 0; i < point; i++)
 	{
