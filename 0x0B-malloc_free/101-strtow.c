@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stlib.h>
+#include <stdlib.h>
 #include <stdio.h>
 /**
  * strtow - function that splits a string into words
@@ -13,5 +13,5 @@
  */
 char **strtow(char *str)
 {
-	Return (0);
+	Return(0);
 }
