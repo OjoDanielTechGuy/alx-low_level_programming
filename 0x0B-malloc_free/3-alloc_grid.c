@@ -48,6 +48,6 @@ int **alloc_grid(int width, int height)
 			twoD_array[height_i][width_i] = 0;
 		}
 	}
-	
+
 	return (twoD_array);
 }
