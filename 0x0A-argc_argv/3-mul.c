@@ -3,7 +3,7 @@
 /**
  * main - multiplication of two numbers
  * @argc: counts the number of arguements
- * argv: arrays of arguements
+ * @argv: arrays of arguements
  * Return: Always 0 (Success)
  */
 int main(int argc, char *argv[])
