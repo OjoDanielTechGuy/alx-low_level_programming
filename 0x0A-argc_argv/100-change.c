@@ -4,7 +4,6 @@
  * main - prints minimum number
  * @argc: number of array
  * @argv: array of pointers
- * desc: where cents is the amount of cents you need to give back
  * Return:  minimum number of coins
  */
 int main(int argc, char *argv[])
@@ -15,7 +14,6 @@ int main(int argc, char *argv[])
 	if (argc != 2)
 	{
 		printf("Error\n");
-
 		return (1);
 	}
 	cents = atoi(argv[1]);
