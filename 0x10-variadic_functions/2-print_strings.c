@@ -7,7 +7,7 @@
  * Return: if separator == NULL return void or
  * if a string == NULL print nil
  */
-void print_strings(const char * separator, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list strings;
 	char *str;
@@ -15,7 +15,7 @@ void print_strings(const char * separator, const unsigned int n, ...)
 
 	if (separator == NULL)
 	{
-		return
+		return;
 	}
 
 	va_start(strings, n);
